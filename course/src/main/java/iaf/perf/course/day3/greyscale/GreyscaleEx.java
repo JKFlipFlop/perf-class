@@ -15,7 +15,7 @@ import javax.swing.JScrollPane;
 
 public class GreyscaleEx {
 	
-	public static final String RGB_LOCATION = "C:\\perf\\rgb.jpg";
+	public static final String RGB_LOCATION = "C:\\Users\\BOAZ\\Desktop\\IMG_20190525_224405.jpg";
 
 	public static void main(String... args) {
 		if (args.length <= 0) {

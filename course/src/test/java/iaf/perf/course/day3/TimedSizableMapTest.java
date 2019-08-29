@@ -12,7 +12,8 @@ import iaf.perf.course.day3.map.TimedSizableHashMap;
 public class TimedSizableMapTest 
 {
 
-	private Ex1.TimedSizableMap<Long, Object> map = new TimedSizableHashMap<>();
+	//private Ex1.TimedSizableMap<Long, Object> map = new TimedSizableHashMap<>();
+	private Ex1_ans<Long, Object> map = new Ex1_ans<>();
 	
 	@Test
 	public void testSize()

@@ -10,7 +10,7 @@ public class CalculatorBenchmark
 	public static void main(String[] args) throws IOException {
 		CalculatorBenchmark bench = new CalculatorBenchmark();
 		if (args.length == 0) {
-			System.out.println("Please input type: [basic|better|norec|j8]");
+			System.out.println("Please input type: [basic|better|norec|j8|boaz]");
 			return;
 		}
 		System.in.read(new byte[1024]);
@@ -28,8 +28,11 @@ public class CalculatorBenchmark
 		case "j8":
 			calc = new Ex2.Java8Calculator();
 			break;
+		case "boaz":
+			calc = new Ex2_ans.Clac_Series_twiked();
+			break;
 		default:
-			System.out.println("Illegal input: must be one of [basic|better|norec|j8]");
+			System.out.println("Illegal input: must be one of [basic|better|norec|j8|boaz]");
 			return;
 		}
 		
